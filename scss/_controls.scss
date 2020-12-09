@@ -1,0 +1,90 @@
+
+/*
+    Controls
+*/
+button{
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    @media screen and (max-width: $max-width){
+        border-radius: 1.77vw;
+    }
+}
+
+.primary-button{
+    width: 100%;
+    height: 148px;
+    font-size: 45px;
+    background-color: $blue;
+    @media screen and (max-width: $max-width){
+        height: 13.15vw;
+        font-size: 4vw;
+    }
+}
+
+.number-input{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    @media screen and (max-width: $max-width){
+        padding: 4.44vw 0;
+        height: 13.33vw;
+
+    }
+    .select-country-code{
+        border-right: 1px solid #7f7f7f;
+        padding-right: 28px;
+        color: #000;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        .flag{
+            display: flex;
+            height: 30px;
+            width: 60px;
+            @media screen and (max-width: $max-width){
+                height: 4.66vw;
+                width: 5.33vw;
+            }
+            @media screen and (max-width: 777px){
+                width: auto;
+            }
+            img{
+                max-width: 100%;
+            }
+        }
+        .select-img{
+            display: flex;
+            padding-left: 17px;
+            @media screen and (max-width: $max-width){
+                padding-left: 1.51vw;
+            }
+        }
+    }
+    .mobile-number{
+        width: 100%;
+        height: 50px;
+        border: 0;
+        color: #000;
+        padding: 5px 40px;
+        font-size: 45px;
+        @media screen and (max-width: $max-width){
+            height: 4.44vw;
+            padding: 0.44vw 3.55vw;
+            font-size: 4vw;
+        }
+        ::placeholder{
+            font-size: 45px;
+            color: #7f7f7f;
+            @media screen and (max-width: $max-width){
+                font-size: 4vw;
+            }
+        }
+    }
+}
