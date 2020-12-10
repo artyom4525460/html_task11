@@ -1,9 +1,9 @@
 .login-header{
     padding: 0;
-    padding-top: 160px;
+    //padding-top: 160px;
     background-color: #fff;
     @media screen and (max-width: $max-width){
-        padding-top: 14.22vw;
+        //padding-top: 14.22vw;
     }
     .login-header-img{
         img{
@@ -18,13 +18,13 @@
                 margin-right: -0.88vw;
             }
             .item{
-                min-width: 408px;
-                min-height: 408px;
+                min-width: 370px;
+                min-height: 370px;
                 margin: 7px 21px; 
                 filter: drop-shadow(0px 30px 28.5px #dedede);
                 @media screen and (max-width: $max-width){
-                    min-width: 36.26vw;
-                    min-height: 36.26vw; 
+                    min-width: 32.88vw;
+                    min-height: 32.88vw;
                     margin: 0.62vw 1.86vw; 
                 }               
             }
@@ -40,9 +40,9 @@
 }
 
 .login-section{
-    padding: 0 100px 100px;
+    padding: 0 100px 0;
     @media screen and (max-width: $max-width){
-        padding: 0 8.88vw 8.88vw;
+        padding: 0 8.88vw 0;
     }
     .logo{
 

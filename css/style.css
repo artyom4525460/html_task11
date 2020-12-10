@@ -157,11 +157,7 @@ button {
 
 .login-header {
   padding: 0;
-  padding-top: 160px;
   background-color: #fff; }
-  @media screen and (max-width: 1125px) {
-    .login-header {
-      padding-top: 14.22vw; } }
   .login-header .login-header-img img {
     max-width: 100%; }
   .login-header .login-header-img .line {
@@ -173,23 +169,23 @@ button {
         margin-left: -0.88vw;
         margin-right: -0.88vw; } }
     .login-header .login-header-img .line .item {
-      min-width: 408px;
-      min-height: 408px;
+      min-width: 370px;
+      min-height: 370px;
       margin: 7px 21px;
       filter: drop-shadow(0px 30px 28.5px #dedede); }
       @media screen and (max-width: 1125px) {
         .login-header .login-header-img .line .item {
-          min-width: 36.26vw;
-          min-height: 36.26vw;
+          min-width: 32.88vw;
+          min-height: 32.88vw;
           margin: 0.62vw 1.86vw; } }
     .login-header .login-header-img .line.second-line {
       justify-content: flex-end; }
 
 .login-section {
-  padding: 0 100px 100px; }
+  padding: 0 100px 0; }
   @media screen and (max-width: 1125px) {
     .login-section {
-      padding: 0 8.88vw 8.88vw; } }
+      padding: 0 8.88vw 0; } }
   .login-section .text {
     padding: 30px 0 85px; }
     @media screen and (max-width: 1125px) {
